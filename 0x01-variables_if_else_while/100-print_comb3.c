@@ -10,14 +10,16 @@
 
 int main(void)
 {
-	for (int n = 0; n < 10; n++)
+	int n, m;
+
+	for (n = 0; n < 10; n++)
 	{
-		for (int m = 0; m < 10; m++)
+		for (m = 0; m < 10; m++)
 		{
 			if (n < m)
 			{
-				purchar (n);
-				purchar (m);
+				purchar (n + 48);
+				purchar (m + 48);
 				if (n < 8 && m < 9)
 				{
 					putchar(',');

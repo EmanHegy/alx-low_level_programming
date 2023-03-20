@@ -11,17 +11,19 @@
 
 int main(void)
 {
-	for (int n = 0; n < 100; n++)
+	int n, m;
+
+	for (n = 0; n < 100; n++)
 	{
-		for (int m = n; m < 100; m++)
+		for (m = n; m < 100; m++)
 		{
 			if (n != m)
 			{
-				purchar (n / 10);
-				purchar (n % 10);
+				purchar (n / 10 + 48);
+				purchar (n % 10 + 48);
 				purchar (' ');
-				purchar (m / 10);
-				purchar (m % 10);
+				purchar (m / 10 + 48);
+				purchar (m % 10 + 48);
 				if (n != 98 || m != 99)
 				{
 					putchar(',');
