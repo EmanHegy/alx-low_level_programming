@@ -18,8 +18,8 @@ int main(void)
 		{
 			if (n < m)
 			{
-				purchar (n + 48);
-				purchar (m + 48);
+				putchar (n + 48);
+				putchar (m + 48);
 				if (n < 8 && m < 9)
 				{
 					putchar(',');

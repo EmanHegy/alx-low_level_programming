@@ -19,11 +19,11 @@ int main(void)
 		{
 			if (n != m)
 			{
-				purchar (n / 10 + 48);
-				purchar (n % 10 + 48);
-				purchar (' ');
-				purchar (m / 10 + 48);
-				purchar (m % 10 + 48);
+				putchar (n / 10 + 48);
+				putchar (n % 10 + 48);
+				putchar (' ');
+				putchar (m / 10 + 48);
+				putchar (m % 10 + 48);
 				if (n != 98 || m != 99)
 				{
 					putchar(',');
