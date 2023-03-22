@@ -1,15 +1,22 @@
 #include <stdio.h>
+#include "main.h"
 
-/*
+/**
  * main - entry point
  *
- * Description: print "_putchar" word follwed by new line
+ * Description: prints _putchar using putchar prototpye
  *
- * Retrurn: 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	printf ("_putchar\n");
+	char str[] = "_purchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
+
 	return (0);
 }
