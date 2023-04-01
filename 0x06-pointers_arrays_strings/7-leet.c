@@ -12,7 +12,7 @@ char *leet(char *c)
 {
 	char *cp = c;
 	char key[] = {'A', 'E', 'O', 'I', 'L'};
-	int value[] = {4, 3, 0, 7, 1};	
+	int value[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
 	while (*c)
@@ -22,6 +22,7 @@ char *leet(char *c)
 			if (*c == key[i] || *c == key[i] + 32)
 				*c = 48 + value[i];
 		}
+		c++;
 	}
 	return (cp);
 }
