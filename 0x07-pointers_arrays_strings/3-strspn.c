@@ -9,7 +9,7 @@
  * Return: integer number
  */
 
-char *_strspn(char *s, char *accept)
+char _strspn(char *s, char *accept)
 {
 	unsigned int i, j;
 
