@@ -5,7 +5,7 @@
  *
  * @s: pointer to string
  *
- * Retutn: int number.
+ * Return: length of the string.
 */
 
 int _strlen_recursion(char *s)

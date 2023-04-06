@@ -5,7 +5,7 @@
  *
  * @n: input number.
  *
- * return: int represent factorial.
+ * Return: result factorial.
 */
 
 int factorial(int n)
